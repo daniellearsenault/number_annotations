@@ -1,9 +1,9 @@
 # number_annotations
 
-Save in directory with fasta file you would like to number.
-Use command:  
-python number_annotations.py  
+purpose: number annotations in a multi-sequence fasta file <br>
 
-You will be prompted for the input filename and what you would like to name the output.  
-The resulting file is a version of the input with a unique number at the start of each annotation line.  
-happy blast-ing! :)
+use:<br>
+• save number_annotations.py file and fasta file to be numbered in the same directory<br>
+• use command:<br>
+python number_annotations.py
+• you will be prompted for the input filename, and for the desired outfile name
