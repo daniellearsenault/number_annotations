@@ -10,7 +10,7 @@ counter = 0
 for c in file:
     output.write(c)
     if c == '>':
-        output.write(str(counter))
+        output.write(str(counter)+'_')
         counter += 1
 
 output.close()
